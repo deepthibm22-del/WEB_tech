@@ -1,0 +1,54 @@
+p{
+    color:blueviolet;
+
+
+/* it will specify the color of the text */
+
+
+text-align:justify;
+/* it will specify the alignment position  of the text .
+values- left/start(d),center,right/end,justify */
+
+text-transform:none;
+/* it will convert the text into different cases. */
+/* values - uppercase, lowercase, capitalize */
+
+text-indent: 100px;
+/* it will specify the space initial position */
+
+text-decoration-line:underline ;
+/* this willspecify  line to text 
+values - underline, overline, line-through */
+
+
+
+text-decoration-style:solid;
+/* this will specify style to a text
+values  solid dotted dashed double wavy*/
+
+
+
+text-decoration-color:blueviolet; 
+/* this will specify color to a text
+values= any color*/
+
+
+
+text-decoration:dashed underline  blueviolet
+
+text-wrap:line-through
+
+
+letter-spacing: 5px;
+
+
+
+word-spacing: 10px;
+
+
+
+text-shadow:2px 2px 5px blueviolet;
+/* it will give a shadow effect to the text */
+}
+h1{text-shadow:2px 2px 5px blueviolet;
+}

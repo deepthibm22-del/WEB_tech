@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+      body{
+            height:500px;
+            width:600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+
+        }
+        .mainbox{
+            height: 600px;
+            width: 500px;
+            border: 3px solid black;
+
+        }
+        .childbox{
+            width:100px;
+            height:100px;
+            background-color: blueviolet;
+            color: white;
+            animation-name: superman;
+            animation-duration: 5s;
+            /* animation-delay: 3s; */
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            /* border-radius: 50%; */
+            /* animation-direction:normal ; */
+
+            
+
+        }
+        @keyframes superman {
+            /* from{
+                transform: translate(0px,0px);
+            }
+            to{
+                transform: translate(450px,0px) rotate(360deg);
+            } */
+             0%{
+                transform: translate(0px,0px);
+                background-color: blueviolet;
+            }
+            25%{
+                transform: translate(400px,0px);
+                background-color: blueviolet;
+            } 
+            50%{
+                transform: translate(400px,500px);
+                background-color: rgb(231, 36, 153);
+            }
+            /* 75%{
+                transform: translate(400px,400px);
+                background-color: rgb(36, 231, 59); */
+            } */
+            
+            
+        }
+        </style>
+</head>
+<body>
+     <div class="mainbox">
+        <div class="childbox">
+            <b>Box1</b>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::first-letter {
+            /*psuedo element selector */
+            font-size: 150px;
+            color: mediumblue;
+        }
+
+        p::first-line {
+            font-size: 25px;
+            color: brown;
+        }
+
+        p::first-letter {
+            font-size: 50px;
+            color: brown;
+        }
+
+        p::before {
+            content: "😎";
+            font-size: 80px;
+        }
+
+        p::after {
+            content: "❤️❤️";
+        }
+
+        h4::selection {
+            background-color: black;
+            color: green
+        }
+
+        h4::first-letter {
+            font-size: 50px;
+            color: brown;
+
+        }
+
+        li::marker {
+            content: "❤️"
+        }
+
+        input::placeholder {
+    color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li> list1</li>
+        <li>list2</li>
+        <li>list3</li>
+        <li>list4</li>
+        <li>list5</li>
+    </ul>
+    <hr>
+    <h1>Pseudo Element Selector</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, aliquid temporibus odio
+        praesentium expedita harum, provident perferendis dicta illum reprehenderit nostrum nesciunt
+        laudantium ullam! Non quam error corporis ex dolore?</p>
+    <hr>
+    <h4>Using selection selector we can change the color of text and bg color while selecting the text.
+        it will text in green and bg color </h4>
+    <hr>
+    <from action="">
+        <input type="text" placeholder="enter your name">
+    </from>
+    <hr>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+
+        }
+        .box{
+            width:100px;
+            height:100px;
+            border: 3px solid red;
+        }
+         #box1{
+           width:100vw;
+            height:100vh;
+            background-color: aqua;
+        }
+        #box2{
+           width:100vw;
+            height:100vh;
+            background-color:orange;
+        }
+        #box3{
+           width:100vw;
+            height:100vh;
+            background-color:blue;
+        }
+        #box4{
+           width:100vw;
+            height:100vh;
+            background-color: red;
+            
+        }
+        .chatbot{
+            width:100px;
+            height:100px;
+            border-radius:50%;
+            background-color: white;
+            background-image: url("gif1.gif");
+            background-size: cover;
+            background-position: center;
+            position: fixed;
+            right: 20px;
+            bottom:80px;
+            border: 3px solid black;
+
+        }
+        .chatbox{
+            width:180px;
+            background-color:pink;
+            position: fixed;
+            right: 130px;
+            bottom:80px;
+            border: 3px solid black;
+            
+
+        }
+    </style>
+</head>
+<body>
+    
+        <div class="box" id="box1">
+            <h1>page1</h1>
+            <div class="chatbot" id="chatbot"></div>
+            <div class="chatbox" id="chatbox">hello👋<br>how are you<br>hows your day😎</div>
+        </div>
+        <div class="box" id="box2"><h1>page2</h1>
+        </div>
+        <div class="box" id="box3">
+            <h1>page3</h1>
+        </div>
+        <div class="box" id="box4">
+            <h1>page4</h1></div>
+        <!-- <div class="box" id="box5">box</div> -->
+    
+    
+</body>
+</html>

@@ -1,0 +1,66 @@
+ <!DOCTYPE html> 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .child1 h2{
+            background-color:blue;
+            color: azure;
+        }
+         .child1>h2{
+            background-color: blue;
+            color: azure;
+         }
+         h1+.main{ 
+            background-color:blue;
+            color: azure;
+         }
+         h1~.main{
+            background-color: blue;
+            color: azure;
+         }
+
+    </style>
+</head>
+
+<body>
+    <h1>Descendent Combinator</h1>
+    <div class="child1">
+        <h2>child</h2>
+        <h2> child</h2>
+        
+        <ul>
+            <li><h2>Discendent</h2></li>
+        </ul>
+
+    </div><hr>
+
+    <h1>Child Combinator</h1>
+    <div class="child1">
+        <h2>child</h2>
+        <h2> child</h2>
+        
+        <ul>
+            <li><h3>Discendent</h3></li>
+        </ul>
+
+    </div><hr>
+
+    <h1 >Adjacent Sibling Combinator</h1>
+    <h3 class="main">First sibling after heading</h3>
+    <h3 class="main">Second sibling after heading</h3>
+    <hr>
+
+    <h1 >General Sibling Combinator</h1>
+    <h3 class="main">First sibling after heading</h3>
+    <h3 class="main">Second sibling after heading</h3>
+
+
+
+
+
+</body>
+</html> 

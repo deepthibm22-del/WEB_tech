@@ -1,0 +1,48 @@
+#box{
+    width: 200px;
+    height: 200px;
+     border-width: 5px ;
+     border-style: double;
+     /* we can use dotted,dashed,double,groove,ridge,none,solid */
+     border-color: red;
+     /* specifyes color */
+     border: 2px groove blue;
+      border: 5px dashed green;
+
+     border-top: 5px solid red;
+     border-bottom:2px double orange;
+     border-left: 5px groove rgb(240, 0, 0);
+     border-right:4px ridge rgb(20, 220, 47); 
+    
+}
+#box2{
+    height: 200px;
+    width: 40px;
+    border:5px solid purple;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 40px;
+    
+    /* set of 4 values */
+    border-radius: 10px 20px 30px 40px;
+    /*              t-l  t-r  b-r   b-l */
+
+
+    /* set of 3 values */
+    border-radius: 10px 20px 30px;
+    /*             t-l  t-r b-r */
+
+    /* set of 2 values */
+    border-radius: 60px 20px;
+    /*             t-l&b-r  t-r&b-l */
+
+
+    /* set of 1 value */
+    border-radius: 60px;
+    /*             */
+
+}
+table{
+    border-collapse: separate;
+}
