@@ -201,7 +201,7 @@
 
 // console.log(str.replace("j","J"));
 
-// ~remove the spacebetween and stsarting and ending
+// ~remove the spacebetween and starting and ending
 // str.concat("javascript","is","Wonderful","scripting","language")
 // console.log(str.replaceAll(" ","").trim());
 
