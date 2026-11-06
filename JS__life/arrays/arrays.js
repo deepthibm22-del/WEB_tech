@@ -152,12 +152,62 @@
 // console.log(arr1.every((num)=>num%2 === 0));
 // console.log(data.every((data)=>data === 'green'));
 
+// ~16.some-->atleast one should pass the implemented test
+// let array=[1,2,3,4,5,6]
+// console.log(array.some((num)=>num>5));
+// console.log(array);
+
+// ~17.fill-->
+// let array=[1,2,3,4,5,6]
+// console.log(array.fill("somu",3,4));
+// console.log(array);
+
+// ~18.find()-->it will return the first element which satisfies the condition
+// let array=[1,2,3,4,5]
+// console.log(array.find((num)=>num%2!==0));//1
+// console.log(array.find((num)=>num%2===0));//2
 
 
+// ~19.findLast()-->it will return the last element which satisfies the condition
+// let array=[1,2,3,4,5]
+// console.log(array.findLast((num)=>num%2===0));//4
 
 
+// ~20.findIndex()-->it will return the index of first element which satisfies the condition
+// let array=[1,2,3,4,5]
+// console.log(array.findIndex((num)=>num%2===0))//1
+
+// ~21.findLastIndex()-->it will return the index of last element which satisfies the condition
+// let array=[1,2,3,4,5]
+// console.log(array.findLastIndex((num)=>num%2!==0));//3
+
+// ~22.flat()-->it will flatten the array
+// let array=[1,2,[3,4,[5,6]],['a', 'b', ['c', 'd']]]
+// console.log(array.flat(2));//specifying nested values number of levels to flatten
+// console.log(array.flat(Infinity));
+// console.log(array.flat());//1 will be default value if we not specify the levels to flatten 
 
 
+// ~23.toreversed()-->it will reverse the array and return the new array.it will not affectthe original array
+// let array=[1,2,3,4,5,6,[7,8,9],10]
+// console.log(array.toReversed());//[ 5, 4, 3, 2, 1 ]
+// console.log(array);
+
+//~ 24.tospliced()-->it will return the new array and it will not affect the original array
+
+
+// ~25.sort()-->it will sort the array and it will affect the original array.it uses lexicaal ualues
+let data=[5,2,10,100,20,1]
+// console.log(data.sort());//[ 1, 10, 100, 2, 20, 5 ] it will not becuse it uses lexical values.it extracts first digit and sort it
+// to over come this we should use function
+// console.log(data.sort((a,b)=>a-b))//[ 1, 2, 5, 10, 20, 100 ]
+// console.log(data.sort((a,b)=>b-a));
+
+// ~26.toSorted()-->
+// let data2=[1,4,5,6,2,3]
+let data3=[]
+console.log(data2.toSorted())
+console.log(data2);
 
 
 
