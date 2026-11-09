@@ -1,15 +1,12 @@
-// 8/11
-
-// Important operators
-// % gives the remainder. JavaScript uses Math.floor(num / 10) to remove the last digit for positive whole numbers.
 1. Reverse a Number
-// What this program does: Reverse the digits of a number. 
-// Example: 1234 becomes 4321.
-// Logic:
-// 1. Get the last digit using remainder (%) with 10.
-// 2. Add that digit to the reversed number after shifting the previous digits left.
-// 3. Remove the last digit using floor division (// in Python; Math.floor division in JavaScript).
-// 4. Repeat until the original number becomes 0.
+What this program does: Reverse the digits of a number. Example: 1234 becomes 4321.
+Logic:
+1. Get the last digit using remainder (%) with 10.
+2. Add that digit to the reversed number after shifting the previous digits left.
+3. Remove the last digit using floor division (// in Python; Math.floor division in JavaScript).
+4. Repeat until the original number becomes 0.
+
+
 
 let num = Number(prompt("Enter a number:"));
 let rev = 0;
@@ -20,6 +17,9 @@ while (num > 0) {
 }
 console.log("Reverse is:", rev);
 
+
+
+
 2. Count the Digits
 What this program does: Count how many digits are present in a number. Example: 458 has 3 digits.
 Logic:
@@ -27,7 +27,7 @@ Logic:
 2. Each time through the loop, remove the last digit and increase the count by 1.
 3. Stop when the number becomes 0.
 4. Special case: 0 itself has 1 digit.
-
+JavaScript code:
 let num = Number(prompt("Enter a number:"));
 let count = 0;
 if (num === 0) {
@@ -58,6 +58,7 @@ while (num > 0) {
     num = Math.floor(num / 10);
 }
 console.log("Sum of digits:", total);
+
 
 
 4. Check a Palindrome Number
@@ -107,3 +108,6 @@ if (num === 0) {
 console.log("Product of digits:", product);
 Sample output:
 Enter a number: 234\nProduct of digits: 24
+Practice tip: Trace the values of num, digit, and the result variable after each loop iteration.
+Page 5
+Beginner practice guide • Number-based programs
