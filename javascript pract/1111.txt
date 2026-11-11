@@ -1,0 +1,21 @@
+JavaScript String Instance Methods 
+1. toUpperCase() – Converts a string into uppercase letters.
+2. toLowerCase() – Converts a string into lowercase letters.
+3. charAt() – Returns the character at a specified index.
+4. at() – Returns a character at a specified index, including negative indexes.
+5. charCodeAt() – Returns the Unicode value of a character.
+6. indexOf() – Returns the first occurrence index of a specified value.
+7. lastIndexOf() – Returns the last occurrence index of a specified value.
+8. includes() – Checks whether a string contains a specified value.
+9. startsWith() – Checks whether a string starts with a specified value.
+10. endsWith() – Checks whether a string ends with a specified value.
+11. slice() – Extracts a portion of a string.
+12. substring() – Returns characters between two specified indexes.
+13. trim() – Removes spaces from both ends of a string.
+14. trimStart() – Removes spaces from the beginning of a string.
+15. trimEnd() – Removes spaces from the end of a string.
+16. replace() – Replaces the first matching value in a string.
+17. replaceAll() – Replaces all matching values in a string.
+18. concat() – Joins two or more strings.
+19. repeat() – Repeats a string a specified number of times.
+20. split() – Splits a string into an array.
