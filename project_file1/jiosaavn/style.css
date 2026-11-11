@@ -98,8 +98,8 @@ form .para1{
 }
 form .para2{
   padding-left: 60px;
-   font-size: 14px;
-   font-weight: light;
+  font-size: 14px;
+  font-weight: light;
   color:grey;
   
 
@@ -115,18 +115,34 @@ form .para2{
     
 
 }
-/* .but2 button{
-    width:60%;
-    width: 100px;
+ .social{
+    display:flex;
+    justify-content: center ;
+    gap:20px;
+ }
+ #gmail{
+    border: 1px solid rgb(4, 12, 11);
+    border-radius:50px;
+    width: 20%;
     height: 40px;
     color:white;
     padding-left: 20px;
     background-color: rgb(4, 12, 11); 
+    padding :8px 13px;
+    font-size: 15px;
+    font-weight: 400;
 }
 
-.but2.email{
-    background-color: rgb(0, 14, 11);
-    justify-content: center ;
+#Facebook{
+    border: 1px solid rgba(1, 4, 158, 0.774);
+    background-color:rgba(1, 4, 158, 0.774);
+    color:white;
+    border-radius:50px;
+    width: 20%;
+    height: 40px;
+    padding :8px 13px;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 
