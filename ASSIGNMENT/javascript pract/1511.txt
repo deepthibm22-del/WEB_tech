@@ -1,0 +1,78 @@
+Type conversion means converting one data type into another data type.
+
+Example:
+- String to Number
+- Number to String
+- String to Boolean
+- Number to Boolean
+There are two types:
+1. Implicit Type Conversion
+2. Explicit Type Conversion
+2. Explicit Type Conversion
+Explicit conversion means manually converting one data type into another using built-in methods.
+Example 1: String to Number
+let a = "100";
+let b = Number(a);
+
+console.log(b);
+console.log(typeof b);
+
+
+Output:
+100
+number
+
+
+Example 2: Number to String
+let a = 100;
+let b = String(a);
+
+console.log(b);
+console.log(typeof b);
+
+
+Output:
+100
+string
+
+
+Example 3: String to Integer
+let a = "25.67";
+let b = parseInt(a);
+
+console.log(b);
+
+
+Output:
+25
+
+
+Example 4: String to Float
+let a = "25.67";
+let b = parseFloat(a);
+
+console.log(b);
+
+
+Output:
+25.67
+
+
+Example 5: Number to Boolean
+let a = 1;
+let b = Boolean(a);
+
+console.log(b);
+
+
+Output:
+true
+
+
+3. Implicit Type Conversion
+Implicit conversion means JavaScript automatically converts one data type into another.
+Example 1: String + Number
+let a = "10";
+let b = 20;
+
+console.log(a + b);
