@@ -37,7 +37,7 @@
 // console.log(data[data.length-1]);// -1 indexing
 
 
-// ~string methods
+// ~string methods-->static
 //~fromCharCode-->method used in string from unicode point
 // let str=String.fromCharCode(74,97,118,97,83,99,114,105,112,116)
 // console.log(str);
@@ -45,8 +45,8 @@
 // let name=String.fromCharCode(68,101,101,112,116,104,105,46,77)
 // console.log(name);
 
-// ~fromcodepoint-->method used when we 6
-// let emoji=String.fromCodePoint(128516);
+// ~fromcodepoint-->method used when we 
+let emoji=String.fromCodePoint(128516);
 // console.log(emoji);
 
 // ~raw() string--->it will print rawcode means exactly what we defined in the variable
