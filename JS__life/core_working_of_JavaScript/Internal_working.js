@@ -68,7 +68,7 @@ which has a 2 types or components creation and execution phase
 // var x=15;
 // var name="rani";
 // function student(){
-  // var name="rani";
+// var name="rani";
 //     console.log(x);
 //     console.log(name);
 // }
@@ -90,8 +90,8 @@ which has a 2 types or components creation and execution phase
 // printFun()
 
 
-// scope-->is a region where we can access a variable
-// 1.global scope---> is a scope which is defined outside the function or block and called any where in the prgrm is known as global scope
+//~ scope-->is a region where we can access a variable
+//~ 1.global scope---> is a scope which is defined outside the function or block and called any where in the prgrm is known as global scope
 // console.log(data);
 // function print(){
 //     let name='rani'
@@ -107,7 +107,7 @@ which has a 2 types or components creation and execution phase
 // function print(){
 //     let name='rani'
 //     console.log(data);
-    
+
 // }
 // print()
 // console.log(name);
@@ -133,3 +133,47 @@ which has a 2 types or components creation and execution phase
 // print()
 // console.log(x)//10
 
+// ~block scope-->is a scope which is defined inside the block or curly braces and called only inside the block
+// !let keyword block scope
+// let flag = true
+// if (flag) {
+//   let data = 100
+//   console.log("value of data is" + data);
+
+// }
+// else {
+//   let data = 200
+//   console.log("value of data is" + data);
+// }
+//  console.log("value of data is" + data);// data is not defined we cannot access it in case of let keyword
+
+// !var keyword in block scope
+//~if the data is defined with var keyword it can be called anywhere we cannot restrict it.var will not destroy here, only when we use let it will destroy
+// let flag = true
+// if (flag) {
+//   var data = 100
+//   console.log("value of data is " + data);
+
+// }
+// else {
+//   var data = 200
+//   console.log("value of data is " + data);
+// }
+//  console.log("value of data is " + data);
+
+
+//  ~lexical -->where data is written 
+// ~scope chaining-->inner function-->outer function--->global scope accessing data
+
+let data1 = 'somu'
+function outerFunction() {
+  let data2 = 'rani'
+  function innerFunction() {
+    let data3 = "raja"
+    console.log(data1);
+    console.log(data2);
+    console.log(data3);
+  }
+  innerFunction()
+}
+outerFunction()
