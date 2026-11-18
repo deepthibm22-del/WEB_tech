@@ -83,22 +83,22 @@ let emoji=String.fromCodePoint(128516);
 // console.log(str.includes('isdgts'));false
 // console.log(str.includes('is',20));//false bcz here it checks index numb after index number it will check the substring is present are not
 
-//~ 6.indexof()
+// ~ 6.indexof()
 // let str= "javascript is a wonderful language"
 // console.log(str.indexOf('hgjj'));//-1-->because no like this startig index
 // console.log(str.indexOf('a',2));//here we can specify from which index it should search for char
 
 
 //~ 7.lastIndexOf()--> it takes the last charachter index.not their means -1
-// let data ="soma raja"
+// let data ="soma rajaaaaaa"
 // console.log(data.lastIndexOf("a"));
 
 
 //~ 8.split()-->splits string into array based on separator.we can use separators like spaces,characters 
-// let str="Javascript is a wonderful lanuage"
+// let str="Jnanvnansncnript is a wonderful lanuage"
 // console.log(str.split(" "));//spaces as separator
-//~ 9.split(separator,limit)
-// console.log(str.split("",4));
+// //~ 9.split(separator,limit)
+// console.log(str.split("n",5));
 
 
 //~ 10.toUpperCase ()
@@ -115,6 +115,7 @@ let emoji=String.fromCodePoint(128516);
 // console.log(str3.length);//before trim length
 // console.log(str3.trim());//trim
 // console.log(str3.trim().length);//after trim length
+
 //~13. trimStart-->it removes starting space 
 // console.log(str3);
 // console.log(str3.trimStart());
