@@ -209,6 +209,15 @@ Object.freeze(emp_Inof)
 //  }
 
 // !10.object.defineProperty-->method add or delete on one property explore it
+// let student={};
+// Object.defineProperty(student,"name"{
+//         value:'deepthi',
+//         writable:true,
+//         enumerable:true,
+//         configurable:true
+//     })
+    
+
 
 // !11.Object.hasOwn()--->it checks thst property is present or not
 
@@ -218,12 +227,12 @@ Object.freeze(emp_Inof)
 // let result=Object.is(emp_Inof.age,21)//true,"21"-->false
 // console.log(result);
 
-let rani_Inof={
-    full_name:'deepthi',
-    address:'bengaluru'
-}
-let result=Object.is(emp_Inof,rani_Inof)
-console.log(result)
+// let rani_Inof={
+//     full_name:'deepthi',
+//     address:'bengaluru'
+// }
+// let result=Object.is(emp_Inof,rani_Inof)
+// console.log(result)
 
 
 

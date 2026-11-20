@@ -158,10 +158,10 @@ let emoji=String.fromCodePoint(128516);
 
 
 // ~22.toString()-->it will convert string into the primitive datatype
-// let data=new String("deepthi")
+let data=new String("deepthi")
 // console.log(data);//[String: 'deepthi']
-// console.log(typeof data.toString());//string
-// console.log(typeof data);//object
+console.log(data.toString());//string
+console.log(typeof data);//object
 
 // ~slice -->
 // let data=("javascript is a wonderful language")
