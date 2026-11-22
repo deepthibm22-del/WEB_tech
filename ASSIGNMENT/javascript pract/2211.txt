@@ -1,0 +1,4 @@
+todays topic covered scope of varibales with examples
+1.global scope,
+2.function scope,
+3.block scope.
