@@ -1,10 +1,10 @@
 //~destructring means -->breaking a big structure like an array or obj into smaller pieces.we should maintain order
 // let colors=['red','green','blue','white','black']
-// // console.log(colors[2]);//insted of index
-// // let[r,g,b,w,b2]=colors// thats why we should nik names so we can access easily
+ // console.log(colors[2]);//insted of index
+ // let[r,g,b,w,b2]=colors// thats why we should nik names so we can access easily
 // let[r,,,,b2]=colors
 //  console.log(r);//red
-//  // console.log(g);//green
+  // console.log(g);//green
 // console.log(b);//blue
 // console.log(b2);
 

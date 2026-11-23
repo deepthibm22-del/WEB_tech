@@ -166,8 +166,10 @@ which has a 2 types or components creation and execution phase
 // ~scope chaining-->inner function-->outer function--->global scope accessing data
 
 let data1 = 'somu'
+
 function outerFunction() {
   let data2 = 'rani'
+  console.log(data2);
   function innerFunction() {
     let data3 = "raja"
     console.log(data1);
