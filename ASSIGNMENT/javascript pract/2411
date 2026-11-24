@@ -1,0 +1,48 @@
+// Array.from()-->it will convert array like object into array.str can be converted to array using tis method
+// let data="javascript"
+// let data=true // []empty array
+// let data="6789"//number
+// console.log(Array.from(data));
+
+// ~another syntax of Array.from()
+// let data1=[1,2,3,4,5]
+// console.log(Array.from(data1),(ch)=>ch*5)
+
+//  ~ to convert string to array with adding 0 and toString() method to convert array into string
+// let data="javascript"
+// console.log(Array.from(data,(ch)=>ch+0).toString().replaceAll(","," "));
+// console.log(toString(data))
+
+// ~Array.isArray()-->it will check whether the given data is array or not
+
+// let data2=[1,2,3,4,5]
+// console.log(Array.isArray(data2));
+
+// if(Array.isArray(data2)){
+//     console.log("data is array");
+// }
+// else{
+//     console.log("data is not array");
+// }
+
+// ~Array.of()-->it will create a new array 
+// let data=Array.of(1,2,3,4,5)
+// console.log(Array.of(1,2,3,4,5));
+// console.log(Array.of(10));
+
+// ~instance method
+// !1.push and 2.pop used perform opertaion at the end of the array
+//~ 1.push-->it is used add the element at the end of the array.
+// let array=[1,2,3,4,5]
+// array.push("somu")
+// console.log(array);
+
+// ~2.pop()-->it is used remove the element at the end of the array.
+// array.pop()
+// console.log(array)
+
+// !1.shift and unshift used perform opertaion at the starting of the array
+// ~1.unshift()-->it is used add the element at the starting of the array.
+// let array=[1,2,3,4,5]
+// array.shift()
+// console.log(array);//[ 2, 3, 4, 5 ]
