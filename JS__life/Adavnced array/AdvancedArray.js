@@ -75,14 +75,26 @@ let data=[1,2,3,4,5,6,7,8,9,10]
 
 
 
-// 1.findout the sum of all the ven numbers in the Array
-let result1=data.filter((item,index,orgarray)=>item%2==0).reduce((sum,currnum)=>sum+currnum )
-console.log(result1)
+//
+// ~ 1.findout the sum of all the ven numbers in the Array
+// let result1=data.filter((item,index,orgarray)=>item%2==0).reduce((sum,currnum)=>sum+currnum )
+// console.log(result1)
 
-// 2.count all the odd number in the given array
-// 3.find the sum of squares of given elemnt 
-// 4.count how many numbers divisibele by 2 and 3
-// 5.find total number of chars in the string
+// ~2.count all the odd number in the given array
+//    let result1 = data.filter((item,index,orgarray) => item%2 !== 0).length;
+//   console.log(result1);
+
+// ~3.find the sum of squares of given elemnt 
+// let result2 = data.map((item) => item*item).reduce((sum,currnum) => sum+currnum, 0);
+// console.log(result2);
+
+// ~4.count how many numbers divisibele by 2 and 3
+// let result3 = data.filter((item) => item%2 == 0 && item%3 == 0).length;
+// console.log(result3);
+
+//~ 5.find total number of chars in the string
+// let result4 = str.split("").reduce((count,char) => count+1, 0);
+// console.log(result4);
 
 
 
