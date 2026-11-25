@@ -1,0 +1,59 @@
+//  !3.slice()
+// let array=[10,20,30,40,50]
+// console.log(array.slice(2));
+// console.log(array.slice(2 ,5));
+// console.log(array.slice(-2));
+// console.log(array.slice(-4,-2));
+// console.log(array.slice(4,2));//SI greater then EI 
+// console.log(array.slice(-1,-4));//
+
+
+// !4.splice()
+// let array=[10,20,30,40,50]
+//let DeleteData=array.splice(1,2)// only deleting here
+// let DeleteData=array.splice(1,0,'somu','ramu','raju')// only to add
+// console.log("DeleteData"+DeleteData);
+// console.log(array);
+
+// !5.concat()-->it is used to merge two or more arrays
+// let arr1=[10]
+// let arr2=[20,30]
+// console.log(arr1.concat.arr2);
+
+// !6.reverse()
+// let array=[10,20,30,40,50]
+// console.log(array.reverse());
+
+
+// //!7.join() 
+// console.log(array.join());
+// console.log(array.join(" "));
+// console.log(array.join("$"));
+
+// !8.indexof()
+// let array=[10,20,30,40,50,30]
+// console.log(array.indexOf(30));
+
+// !9.lastIndexOf
+// console.log(array.lastIndexOf(30));
+
+// !10.includes()-->it will check whether the given element is present in the array or not
+// let arr=[1,2,3]
+// console.log(arr.includes(2));//true
+// console.log(arr.includes(4));//false
+
+
+// ! 11.entries
+// let array=[10,20,30,40,50]
+// console.log(array.entries());//Object [Array Iterator] {} so we use
+// for (let x of array.entries()){
+//     console.log(x);
+    
+// }
+
+//!12. keys-->it returns only keys
+// let array=[10,20,30,40,50]
+// console.log(array.keys());//Object [Array Iterator] {} so we use
+// for (let x of array.keys()){
+//     console.log(x);
+// }
