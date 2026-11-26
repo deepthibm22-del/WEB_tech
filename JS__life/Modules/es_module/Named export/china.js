@@ -3,7 +3,6 @@
 
 export let emp={
     full_name:'deepthi',
-        age:21,
+        age:21
         
-    
-        module.exports=(emp)
+}

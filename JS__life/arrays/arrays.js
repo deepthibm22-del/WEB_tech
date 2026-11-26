@@ -89,15 +89,23 @@
 
 // !4.splice()
 // let array=[10,20,30,40,50]
-//let DeleteData=array.splice(1,2)// only deleting here
+// let DeleteData=array.splice(1,2)// only deleting here
 // let DeleteData=array.splice(1,0,'somu','ramu','raju')// only to add
 // console.log("DeleteData"+DeleteData);
 // console.log(array);
 
+// let array=['raju','somu','rani','deepthi']
+// let DeleteData=array.splice(0,3)// only deleting here
+// let DeleteData=array.splice(1,2,'somu','ramu','raju')// only to add
+// console.log("DeleteData"+DeleteData);
+// console.log(array);
+
+
+
 // !5.concat()-->it is used to merge two or more arrays
-// let arr1=[10]
-// let arr2=[20,30]
-// console.log(arr1.concat.arr2);
+let arr1=[10]
+let arr2=[20,30]
+console.log(arr1.concat.arr2);
 
 // !6.reverse()
 // let array=[10,20,30,40,50]
@@ -107,7 +115,7 @@
 // //!7.join() 
 // console.log(array.join());
 // console.log(array.join(" "));
-// console.log(array.join("$"));
+console.log(array.join("$"));
 
 // !8.indexof()
 // let array=[10,20,30,40,50,30]
@@ -117,8 +125,8 @@
 // console.log(array.lastIndexOf(30));
 
 // !10.includes()-->it will check whether the given element is present in the array or not
-// let arr=[1,2,3]
-// console.log(arr.includes(2));//true
+let arr=[1,2,3]
+console.log(arr.includes(2));//true
 // console.log(arr.includes(4));//false
 
 
@@ -197,7 +205,7 @@
 
 
 // ~25.sort()-->it will sort the array and it will affect the original array.it uses lexicaal ualues
-let data=[5,2,10,100,20,1]
+// let data=[5,2,10,100,20,1]
 // console.log(data.sort());//[ 1, 10, 100, 2, 20, 5 ] it will not becuse it uses lexical values.it extracts first digit and sort it
 // to over come this we should use function
 // console.log(data.sort((a,b)=>a-b))//[ 1, 2, 5, 10, 20, 100 ]
@@ -205,9 +213,9 @@ let data=[5,2,10,100,20,1]
 
 // ~26.toSorted()-->
 // let data2=[1,4,5,6,2,3]
-let data3=[]
-console.log(data2.toSorted())
-console.log(data2);
+// let data3=[]
+// console.log(data2.toSorted())
+// console.log(data2);
 
 
 
