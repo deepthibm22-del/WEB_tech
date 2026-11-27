@@ -1,7 +1,6 @@
 // !synchronous and asynchronous
 // console.log("program started")
 
-const { getValueAsType } = require("framer-motion");
 
 // console.log("program mid");
 // for (let i=0;i<1023;i++){
@@ -17,10 +16,10 @@ const { getValueAsType } = require("framer-motion");
 // console.log("program started")
 // console.log("program mid");
 // function handlingData(){
-// // for (let i=0;i<1023;i++)
-// //     console.log("loding...")
+// for (let i=0;i<1023;i++)
+//     console.log("loding...")
 
-// // }
+// }
 // console.log("done with the prgrm");
 // }
 // setTimeout(handlingData,5000)// after a 5sec delay it will excute.here it is not the delay to execute the code ,it is delay to dump the data to taskqueue

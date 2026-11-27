@@ -1,0 +1,24 @@
+fill-->it works like replace with starting index and ending index.without indexes it replaces all the values with a given value
+// let array=[1,2,3,4,5,6]
+// console.log(array.fill("somu"));//without index  [ 'somu', 'somu', 'somu', 'somu', 'somu', 'somu' ]
+// console.log(array.fill("somu",3));//with starting index [ 1, 2, 3, 'somu', 'somu', 'somu' ]
+// console.log(array.fill("somu",3,5));//with SI and EI [ 1, 2, 3, 'somu', 'somu', 6 ]
+// console.log(array);
+// !8.indexof()
+// let array=[10,20,30,40,50,30]
+// console.log(array.indexOf(30));
+
+// !9.lastIndexOf
+// console.log(array.lastIndexOf(30));
+
+// !10.includes()-->it will check whether the given element is present in the array or not
+// let arr=[1,2,3]
+// console.log(arr.includes(2));//true
+// console.log(arr.includes(4));//false
+// !4.splice()
+// let array=[10,20,30,40,50]
+// let DeleteData=array.splice(1,2)// only deleting here
+// let DeleteData=array.splice(1,0,'somu','ramu','raju')// only to add
+// console.log("DeleteData"+DeleteData);
+// console.log(array);
+

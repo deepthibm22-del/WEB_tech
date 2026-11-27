@@ -103,9 +103,9 @@
 
 
 // !5.concat()-->it is used to merge two or more arrays
-let arr1=[10]
-let arr2=[20,30]
-console.log(arr1.concat.arr2);
+// let arr1=[10]
+// let arr2=[20,30]
+// console.log(arr1.concat.arr2);
 
 // !6.reverse()
 // let array=[10,20,30,40,50]
@@ -115,7 +115,7 @@ console.log(arr1.concat.arr2);
 // //!7.join() 
 // console.log(array.join());
 // console.log(array.join(" "));
-console.log(array.join("$"));
+// console.log(array.join("$"));
 
 // !8.indexof()
 // let array=[10,20,30,40,50,30]
@@ -125,8 +125,8 @@ console.log(array.join("$"));
 // console.log(array.lastIndexOf(30));
 
 // !10.includes()-->it will check whether the given element is present in the array or not
-let arr=[1,2,3]
-console.log(arr.includes(2));//true
+// let arr=[1,2,3]
+// console.log(arr.includes(2));//true
 // console.log(arr.includes(4));//false
 
 
@@ -165,9 +165,11 @@ console.log(arr.includes(2));//true
 // console.log(array.some((num)=>num>5));
 // console.log(array);
 
-// ~17.fill-->
+// ~17.fill-->it works like replace with starting index and ending index.without indexes it replaces all the values with a given value
 // let array=[1,2,3,4,5,6]
-// console.log(array.fill("somu",3,4));
+// console.log(array.fill("somu"));//without index  [ 'somu', 'somu', 'somu', 'somu', 'somu', 'somu' ]
+// console.log(array.fill("somu",3));//with starting index [ 1, 2, 3, 'somu', 'somu', 'somu' ]
+// console.log(array.fill("somu",3,5));//with SI and EI [ 1, 2, 3, 'somu', 'somu', 6 ]
 // console.log(array);
 
 // ~18.find()-->it will return the first element which satisfies the condition
