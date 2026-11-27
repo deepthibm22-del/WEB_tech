@@ -1,6 +1,8 @@
 // !synchronous and asynchronous
 // console.log("program started")
 
+const { getValueAsType } = require("framer-motion");
+
 // console.log("program mid");
 // for (let i=0;i<1023;i++){
 //     console.log("loding...")
@@ -72,5 +74,8 @@ setTimeout(()=>{
     clearInterval(interval)
 },6000)//within this sechow many times it will print
 
-console.log("dealing with impdata");
+console.log("dealing with impda ta");
 console.log("prgrm ended");
+
+
+
