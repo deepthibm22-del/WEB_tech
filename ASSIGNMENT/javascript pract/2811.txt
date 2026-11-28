@@ -1,0 +1,6 @@
+written notes.
+and revised that concepts while writing
+topics are
+1.promise
+2.states
+3.ways of promise
